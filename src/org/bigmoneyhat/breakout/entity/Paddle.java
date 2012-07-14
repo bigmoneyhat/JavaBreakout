@@ -18,6 +18,11 @@ public class Paddle extends Entity {
 			move(Entity.LEFT);
 		if(Keyboard.isKeyDown(Keyboard.KEY_RIGHT))
 			move(Entity.RIGHT);
+		
+		if(this.x > 660)
+			this.x = 660;
+		if(this.x < 0)
+			this.x = 0;
 	}
 
 	@Override
