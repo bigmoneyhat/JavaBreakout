@@ -34,10 +34,10 @@ public abstract class Entity {
 	public void move(int dir) {
 		switch(dir) {
 		case 0:
-			this.x -= 5;
+			this.x -= 10;
 			break;
 		case 1:
-			this.x += 5;
+			this.x += 10;
 			break;
 		}
 	}

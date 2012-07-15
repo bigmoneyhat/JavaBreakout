@@ -13,7 +13,7 @@ public class JavaBreakout {
 	public GameState nextState;
 	
 	public void run() throws LWJGLException {
-		Display.setDisplayMode(new DisplayMode(800, 600));
+		Display.setDisplayMode(new DisplayMode(1024, 768));
 		Display.create();
 		
 		GL11.glMatrixMode(GL11.GL_PROJECTION);
